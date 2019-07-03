@@ -3,7 +3,7 @@ import socket as skt
 
 
 def chat_client():
-    HOST = skt.gethostname()
+    HOST = "mansiiott.herokuapp.com"
     PORT_NO = 8080 
 
     client = skt.socket()
